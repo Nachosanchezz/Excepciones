@@ -28,3 +28,5 @@ correo_tres = Correo("nacho3@bing.com")
 correo_cuatro = Correo("nacho4@gmail.com")
 
 correos = [correo_uno, correo_dos, correo_tres, correo_cuatro]
+for i in correos:
+    print(i.validar())
